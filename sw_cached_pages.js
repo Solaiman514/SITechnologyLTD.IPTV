@@ -3,8 +3,8 @@ const cacheName = 'v1';
 const cacheAssets = [
     'hls.js@latest',
     'index.html',
-    'logo192.png',
-    'logo512.png',
+    'PicsArt_05-25-11.53.42.png',
+    'PicsArt_05-25-11.53.42.png',
     'main.js',
     'sw_cached_pages.js',
     'sw_cached_site.js'
