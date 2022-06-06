@@ -14,7 +14,7 @@
 if(Hls.isSupported()) {
     var video = document.getElementById('video');
     var hls = new Hls();
-    hls.loadSource('https://td.chowdhury-shaheb.com/live/gazitv/chunks.m3u8');
+    hls.loadSource('https://github.com/Solaiman514/Channel/raw/main/STAR_JALSHA_HD.m3u8');
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
         video.play();
