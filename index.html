@@ -14,7 +14,7 @@
 if(Hls.isSupported()) {
     var video = document.getElementById('video');
     var hls = new Hls();
-    hls.loadSource('https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/playlist.m3u8');
+    hls.loadSource('https://www.ast.tv/stream/1/master.m3u8');
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
         video.play();
