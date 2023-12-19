@@ -14,7 +14,7 @@
 if(Hls.isSupported()) {
     var video = document.getElementById('video');
     var hls = new Hls();
-    hls.loadSource('https://live.tsports.com/mobile_hls/tsports_live_2/auto.m3u8');
+    hls.loadSource('https://prod-ent-live-gm.jiocinema.com/bpk-tv/Colors_Bangla_HD_voot_MOB/Fallback/index.m3u8');
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
         video.play();
